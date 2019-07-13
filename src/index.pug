@@ -5,8 +5,6 @@ html
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title Anna Evlanova | Full Stack Engineer
-    link(rel='stylesheet', href='css/main.css')
-    link(href='https://fonts.googleapis.com/css?family=Raleway&display=swap', rel='stylesheet')
     script(src='https://kit.fontawesome.com/7a810b4226.js')
   body
     .container
@@ -22,15 +20,15 @@ html
                 | Over 2 years of experience in building web applications and APIs using Ruby and JavaScript. I'm writing object-oriented code and care about Agile.
           .column
             p
-              a(href='mailto: malory6072@yandex.ru')
+              a(href='mailto: unicorn.eating.popcorn@gmail.com')
                 span.icon
                   i.far.fa-envelope
-                span malory6072@yandex.ru
+                span unicorn.eating.popcorn@gmail.com
             p
-              a(href='https://github.com/AdventurousHunter')
+              a(href='https://github.com/UnicornEatingPopcorn')
                 span.icon
                   i.fab.fa-github-alt
-                span AdventurousHunter
+                span UnicornEatingPopcorn
             p
               a(href='https://www.worldtimebuddy.com/?qm=1&lid=524901,5,12,100&h=524901&sln=10-21')
                 span.icon
@@ -44,92 +42,58 @@ html
             ul
               li
                 span.icon
-                  i.fas.fa-check-square
+                  i.fab.fa-hotjar
                 |                 Ruby / Ruby on Rails linted with Rubocop
               li
                 span.icon
-                  i.fas.fa-check-square
+                  i.fab.fa-hotjar
                 |                 Test Driven Development with RSpec
               li
                 span.icon
-                  i.fas.fa-check-square
-                |                 PostgreSQL 11
+                  i.fab.fa-hotjar
+                |                 SQL and PostgreSQL
           .column
             h2.title.is-5 Frontend
             ul
               li
                 span.icon
-                  i.fas.fa-check-square
-                |                 Vanilla ES10 / Vue linted with ESLint
+                  i.fab.fa-hotjar
+                |                 Javascript ES10 / Vue linted with ESLint
               li
                 span.icon
-                  i.fas.fa-check-square
+                  i.fab.fa-hotjar
                 |                 Bulma / Bootstrap 4, SASS / SCSS, BEM
               li
                 span.icon
-                  i.fas.fa-check-square
-                |                 Pug, Slim, Haml
+                  i.fab.fa-hotjar
+                |                 Pug, Slim, Haml, Markdown
       section.section
-        h2.title.is-4 Working history
+        h2.title.is-4 Latest project
         .tile.is-ancestor
           .tile.is-parent
             .tile.is-child.box
-              h3.title.is-5 Code Review and Review New Feature
-              .subtitle.is-6
-                | Backend Engineer
-              ul
-                li
-                  span.icon
-                    i.fas.fa-check
-                  |                   Made report about existing features
-                li
-                  span.icon
-                    i.fas.fa-check
-                  |                   Corrected mistakes in code
-                li
-                  span.icon
-                    i.fas.fa-check
-                  |                   Made reccomendations for more productive and simpler code
-          .tile.is-parent
-            .tile.is-child.box
-              h3.title.is-5 Implement: Code Review Suggestions + Upload Profile Photo Issue
+              h3.title.is-5 Profile Avatar Uploader
               .subtitle.is-6
                 | Fullstack Engineer
               ul
                 li
                   span.icon
                     i.fas.fa-check
-                  |                     Added Pundit for users authorization
+                  | Plugged Rubocop to obtain capability of using Ruby Style Guide best practises
                 li
                   span.icon
                     i.fas.fa-check
-                  |                     Replaced sqlite with postgress, sass-rails with sassc-rails
+                  | By using bullet gem, n+1 queries were destroyed, which speeds page rendering up
                 li
                   span.icon
                     i.fas.fa-check
-                  |                     Added bullet gem for Sql profiling
-                li
-                  span.icon
-                    i.fas.fa-check
-                  |                     Connected and set rubocop
-                li
-                  span.icon
-                    i.fas.fa-check
-                  |                     Refactored token generation for Active Record naive method
-                li
-                  span.icon
-                    i.fas.fa-check
-                  |                     Installed lib jdenticon for generating Profile avatar
-                li
-                  span.icon
-                    i.fas.fa-check
-                  |                     Fixed issues and wrote tests with RSpec
+                  | Realized Profile Avatar Uploader with opportunities to preview and crop in real time. I was using Vanilla.js for frontend and Ruby on Rails with carrierwave for backend
       section.section
         .columns.is-multiline
           .column.is-8
             h2.title.is-4 Pet Projects
           .column.in-4
-            h2.title.is-4 Education
+            h2.title.is-4 Favourite resources
           .column.is-4
             .card
               .card-image
@@ -137,11 +101,17 @@ html
                   img(src='https://camo.githubusercontent.com/07f529430c963efaac1b9d365b3a52e5fc9ca90b/68747470733a2f2f692e696d6775722e636f6d2f764659554748342e706e67')
               .card-content
                 h4.title.is-5 Trip Questions
-                p.subtitle.is-6 Application made with Vue.js and Ruby on Rails projects
+                p.subtitle.is-6 Web travel booking form with Vue.js for frontend and Ruby on Rails for backend
                 p
-                  a(href='https://github.com/AdventurousHunter/trip-questions-vue') Trip Questions Vue
+                  a(href='https://github.com/AdventurousHunter/trip-questions-vue')
+                    span.icon
+                      i.fab.fa-github-alt
+                    span Trip Questions Vue
                   br
-                  a(href='https://github.com/AdventurousHunter/trip-questions-api') Trip Questions Rails
+                  a(href='https://github.com/AdventurousHunter/trip-questions-api')
+                    span.icon
+                      i.fab.fa-github-alt
+                    span Trip Questions Rails
           .column
             .card
               .card-image
@@ -149,46 +119,52 @@ html
                   img(src='https://i.imgur.com/joBIedC.png')
               .card-content
                 h4.title.is-5 One Click Trip
-                p.subtitle.is-6 Travel web-application
+                p.subtitle.is-6 Travel web-application built with Bootstrap 4, Vanilla.js for frontend, Ruby on Rails for backend
                 p
-                  a(href='http://one-click-trip.com') One Click Trip
+                  a(href='http://one-click-trip.com')
+                    span.icon
+                      i.fas.fa-globe-europe
+                    span One Click Trip
           .column
             .title.is-5
-              | Udemy.com
-            .subtitle.is-6
-              | Programming online courses
+              | Courses
+            ul.subtitle.is-6
+              li
+                span.icon
+                  i.fas.fa-university
+                |  Vue Mastery
+              li
+                span.icon
+                  i.fas.fa-university
+                |  Codewars
+              li
+                span.icon
+                  i.fas.fa-university
+                |  Udemy.com
             br
             .title.is-5
-              | Favourite resources
+              | Books
             ul.subtitle.is-6
               li
                 span.icon
                   i.fas.fa-book
-                |                 Eloquent JavaScript
+                | Eloquent JavaScript
               li
                 span.icon
                   i.fas.fa-book
-                |                 The Imposter's Handbook
+                | The Imposter's Handbook
               li
                 span.icon
                   i.fas.fa-book
-                |                 Creating Interfaces with Bulma
-              li
-                span.icon
-                  i.fas.fa-university
-                |                 Vue Mastery
-              li
-                span.icon
-                  i.fas.fa-university
-                |                 Codewars
+                | Creating Interfaces with Bulma
       footer.section
         nav.level.is-mobile
           .level-left
             .level-item
               a(href='http://bulma.io')
-                img(src='made-with-bulma.png', alt='Made with Bulma', width='128', height='24')
+                img(src='images/made-with-bulma.png', alt='Made with Bulma', width='128', height='24')
           .level-right
-            a.level-item(href='file/Anna Evlanova _ Full Stack Engineer.pdf')
+            a.level-item(href='Anna_Evlanova_Full_Stack_Engineer.pdf')
               span.icon
                 i.far.fa-file-alt
               |                 Download PDF
