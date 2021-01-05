@@ -4,20 +4,20 @@ html
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Anna Evlanova | Full Stack Engineer
+    title Anna Evlanova | Front-end Developer
     script(src='https://kit.fontawesome.com/7a810b4226.js')
   body
     .container
       section.section
         h1.title.is-2  Anna Evlanova
         h2.subtitle.is-4
-          | Full Stack Engineer
+          | Front-end Developer
       section.section
         .columns
           .column.is-8
             .content
               p
-                | Over 2 years of experience in building web applications and APIs using Ruby and JavaScript. I'm writing object-oriented code and care about Agile.
+                | Over 2 years of experience in building web applications and APIs using JavaScript Frameworks(React.js, Vue.js). I'm writing object-oriented code and care about Agile.
           .column
             p
               a(href='mailto: unicorn.eating.popcorn@gmail.com')
@@ -38,31 +38,29 @@ html
         h2.title.is-4 Skills
         .columns
           .column
-            h2.title.is-5 Backend
             ul
               li
                 span.icon
                   i.fab.fa-hotjar
-                |                 Ruby / Ruby on Rails linted with Rubocop
+                |                 React.js / Redux / React Router
               li
                 span.icon
                   i.fab.fa-hotjar
-                |                 Test Driven Development with RSpec
+                |                 Semantic UI / Bulma / Bootstrap
               li
                 span.icon
                   i.fab.fa-hotjar
                 |                 SQL and PostgreSQL
           .column
-            h2.title.is-5 Frontend
             ul
               li
                 span.icon
                   i.fab.fa-hotjar
-                |                 Javascript ES10 / Vue 3 linted with ESLint
+                |                 Javascript / Vue 3 linted with ESLint
               li
                 span.icon
                   i.fab.fa-hotjar
-                |                 Bulma / Bootstrap 4, SASS / SCSS, BEM
+                |                 SASS / SCSS / BEM / Css Grid
               li
                 span.icon
                   i.fab.fa-hotjar
@@ -72,91 +70,154 @@ html
         .tile.is-ancestor
           .tile.is-parent
             .tile.is-child.box
-              h3.title.is-5 Profile Avatar Uploader
+              h3.title.is-5 CRM System for Russian Building Company
               .subtitle.is-6
-                | Fullstack Engineer
+                | Front-end Engineer
               ul
                 li
                   span.icon
                     i.fas.fa-check
-                  | Plugged Rubocop to obtain capability of using Ruby Style Guide best practises
+                  | Manage already existed code, fix bugs
                 li
                   span.icon
                     i.fas.fa-check
-                  | By using bullet gem, n+1 queries were destroyed, which speeds page rendering up
+                  | Create new components, using React.js, add new features
                 li
                   span.icon
                     i.fas.fa-check
-                  | Realized Profile Avatar Uploader with opportunities to preview and crop in real time. I was using Vanilla.js for frontend and Ruby on Rails with carrierwave for backend
+                  | Refactor code to make it readable and faster
+        .tile.is-ancestor
+          .tile.is-parent
+            .tile.is-child.box
+              h3.title.is-5 Mobile encyclodepia for Japanese game characters
+              .subtitle.is-6
+                | Front-end Engineer
+              ul
+                li
+                  span.icon
+                    i.fas.fa-check
+                  | Create project from the scratch
+                li
+                  span.icon
+                    i.fas.fa-check
+                  | Using Vue.js create components, connect API
+                li
+                  span.icon
+                    i.fas.fa-check
+                  | Visualize pretty design^^
+
       section.section
         .columns.is-multiline
           .column.is-8
             h2.title.is-4 Pet Projects
+            .columns.is-multiline
+              .column.is-6
+                .card
+                  .card-image
+                    figure.image.is-16by9
+                      img(src='https://imgur.com/OGMyxzH.png')
+                  .card-content
+                    h4.title.is-5 Russian Libraries Statistic
+                    p.subtitle.is-6 Display statistic info by Russian regions with React.js for frontend
+                    p
+                      a(href='https://github.com/UnicornEatingPopcorn/russianLibraries')
+                        span.icon
+                          i.fab.fa-github-alt
+                        span Libraries Statistic Code
+                    p
+                      a(href='https://youtu.be/AmkCnr1v88I')
+                        span.icon
+                          i.fa.fa-youtube-play
+                        span Libraries Statistic Video
+              .column
+                .card
+                  .card-image
+                    figure.image.is-16by9
+                      img(src='https://imgur.com/xIvv2bE.png')
+                  .card-content
+                    h4.title.is-5 Weather Forecast
+                    p.subtitle.is-6 Display 5-days forecast in any city of the world with Vue.js.
+                    p
+                      a(href='https://github.com/UnicornEatingPopcorn/weatherForecast')
+                        span.icon
+                          i.fab.fa-github-alt
+                        span Forecast Code
+                    p
+                      a(href='https://youtu.be/hnuK-m8T8s0')
+                        span.icon
+                          i.fa.fa-youtube-play
+                        span Forecast Video
+              .column.is-6
+                .card
+                  .card-image
+                    figure.image.is-16by9
+                      img(src='https://i.imgur.com/LeIeZNp.png')
+                  .card-content
+                    h4.title.is-5 Trip Questions
+                    p.subtitle.is-6 Web travel booking form with calendars with Vue.js for frontend
+                    p
+                      a(href='https://github.com/UnicornEatingPopcorn/questions-form')
+                        span.icon
+                          i.fab.fa-github-alt
+                        span Trip Questions Code
+                    p
+                      a(href='https://youtu.be/vfe8NoMW4l0')
+                        span.icon
+                          i.fa.fa-youtube-play
+                        span Trip Questions Video
+              .column
+                .card
+                  .card-image
+                    figure.image.is-16by9
+                      img(src='https://i.imgur.com/xsUVMEV.png')
+                  .card-content
+                    h4.title.is-5 Clown glitch
+                    p.subtitle.is-6 Practice of using CSS-tricks for glitch effect on any element.
+                    p
+                      a(href='https://github.com/UnicornEatingPopcorn/clown')
+                        span.icon
+                          i.fab.fa-github-alt
+                        span Clown Glitch Code
+                    p
+                      a(href='https://youtu.be/N_7sn2KxYG4')
+                        span.icon
+                          i.fa.fa-youtube-play
+                        span Clown Video
           .column.in-4
             h2.title.is-4 Favourite resources
-          .column.is-4
-            .card
-              .card-image
-                figure.image.is-16by9
-                  img(src='https://i.imgur.com/LeIeZNp.png')
-              .card-content
-                h4.title.is-5 Trip Questions
-                p.subtitle.is-6 Web travel booking form with Vue.js for frontend
-                p
-                  a(href='https://github.com/UnicornEatingPopcorn/questions-form')
+            .columns.is-multiline
+              .column
+                .title.is-5
+                  | Courses
+                ul.subtitle.is-6
+                  li
                     span.icon
-                      i.fab.fa-github-alt
-                    span Trip Questions Vue
-                  //- br
-                  //- a(href='https://github.com/AdventurousHunter/trip-questions-api')
-                  //-   span.icon
-                  //-     i.fab.fa-github-alt
-                  //-   span Trip Questions Rails
-          .column
-            .card
-              .card-image
-                figure.image.is-16by9
-                  img(src='https://i.imgur.com/xsUVMEV.png')
-              .card-content
-                h4.title.is-5 Clown glitch
-                p.subtitle.is-6 Practice of using CSS-tricks for glitch effect on any element.
-                p
-                  a(href='https://github.com/UnicornEatingPopcorn/clown')
+                      i.fas.fa-university
+                    |  Vue Mastery
+                  li
                     span.icon
-                      i.fab.fa-github-alt
-                    span Clown glitch
-          .column
-            .title.is-5
-              | Courses
-            ul.subtitle.is-6
-              li
-                span.icon
-                  i.fas.fa-university
-                |  Vue Mastery
-              li
-                span.icon
-                  i.fas.fa-university
-                |  Codewars
-              li
-                span.icon
-                  i.fas.fa-university
-                |  Udemy.com
-            br
-            .title.is-5
-              | Books
-            ul.subtitle.is-6
-              li
-                span.icon
-                  i.fas.fa-book
-                | Eloquent JavaScript
-              li
-                span.icon
-                  i.fas.fa-book
-                | The Imposter's Handbook
-              li
-                span.icon
-                  i.fas.fa-book
-                | Creating Interfaces with Bulma
+                      i.fas.fa-university
+                    |  Codewars
+                  li
+                    span.icon
+                      i.fas.fa-university
+                    |  Udemy.com
+                br
+                .title.is-5
+                  | Books
+                ul.subtitle.is-6
+                  li
+                    span.icon
+                      i.fas.fa-book
+                    | Eloquent JavaScript
+                  li
+                    span.icon
+                      i.fas.fa-book
+                    | The Imposter's Handbook
+                  li
+                    span.icon
+                      i.fas.fa-book
+                    | Creating Interfaces with Bulma
       footer.section
         nav.level.is-mobile
           .level-left
@@ -164,7 +225,7 @@ html
               a(href='http://bulma.io')
                 img(src='images/made-with-bulma.png', alt='Made with Bulma', width='128', height='24')
           .level-right
-            a.level-item(href='Anna_Evlanova_Full_Stack_Engineer.pdf')
+            a.level-item(href='AnnaEvlanova_FrontEndDeveloper.pdf')
               span.icon
                 i.far.fa-file-alt
               |                 Download PDF
