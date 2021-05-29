@@ -1,1 +1,1 @@
-require('./resume.sass')
+import './resume.sass'

@@ -19,11 +19,19 @@ module.exports = {
         test: /\.sass$/,
         use: [
           MiniCssExtractPlugin.loader,
-          "css-loader",
-          "sass-loader"
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true,
+              // options...
+            }
+          }
         ]
       },
-      { 
+      {
         test: /\.pug$/,
         use: ["pug-loader"]
       },
