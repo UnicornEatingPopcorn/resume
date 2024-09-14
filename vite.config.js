@@ -7,6 +7,6 @@ const locals = { name: "My Pug" }
 export default defineConfig({
   plugins: [pugPlugin(options, locals)],
   build: {outDir: "docs"},
-  base: './',
+  base: '/resume/',
   host: '0.0.0.0'
 })
