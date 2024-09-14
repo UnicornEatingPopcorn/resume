@@ -14,6 +14,10 @@ if (process.env.PROD) {
 export default defineConfig({
   plugins: [pugPlugin(options, locals)],
   build: {outDir: "docs"},
+<<<<<<< Updated upstream
   base: baseUrl,
+=======
+  base: './',
+>>>>>>> Stashed changes
   host: '0.0.0.0'
 })
